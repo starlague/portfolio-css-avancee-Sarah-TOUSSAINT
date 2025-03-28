@@ -1,0 +1,24 @@
+@use '../abstracts/variables';
+body {
+    font-family: variables.$font-family;
+    color: variables.$color-black;
+  }
+  
+  .icon {
+    display: block;
+    font-size: 2rem;
+  }
+  
+  .label {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  
+  .value {
+    display: block;
+    font-size: 1.2rem;
+  }
+  

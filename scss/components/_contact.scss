@@ -1,0 +1,8 @@
+@use '../abstracts/variables';
+.contact {
+    border: 2px dashed variables.$color-white;
+    border-radius: variables.$border-radius;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  

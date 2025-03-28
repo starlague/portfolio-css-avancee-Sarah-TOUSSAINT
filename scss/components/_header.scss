@@ -1,0 +1,51 @@
+@use '../abstracts/variables';
+
+
+.align-center{
+    align-items: center;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: variables.$color-white;
+    z-index: 999;
+    box-shadow: 1px 1px 25px rgb(0,0,0,0.07);
+}
+
+.header{
+    display: block;
+}
+
+.header-logo {
+    img{
+    width: 50px;
+    aspect-ratio: 1/1;
+    }
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.header-menu{
+    li{
+        a{
+            text-decoration: none;
+            color: variables.$color-black;
+            padding: 10px 20px;
+            display: block;
+            box-sizing: border-box;
+        }
+
+        &:hover{
+            background-color: #f2f2f2;
+            border-radius: variables.$border-radius;
+            transition: variables.$transition-duration ease;
+        }
+    }
+}
